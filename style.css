@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.top-line{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+}
+.top-line1 span,.top-line2 i{
+    padding-right: 8px;
+}
+.top-bener
+{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url(./images/carousel-1.jpg);
+    min-height: 94vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    background-blend-mode: darken;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 30px;
+
+}
+.nav-logo{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+nav li a:hover{
+    color: black;
+}
+nav ul li button{
+    border: 0;
+    background-color: blue;
+    padding: 8px;
+}
+nav ul li button a{
+    font-size: 14px;
+}
+.top-detail{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.most-line{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.btn-c button{
+    padding: 8px;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    border: 1px solid white;
+}
+.btn-c span button{
+    background-color: blue;
+    border: 0;
+    padding: 10px;
+}
+.row-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: 40px;
+}
+
+.row-section .box-row1,.box-row2,.box-row3{
+    width: 300px;
+    padding: 30px;
+}
+.box-row1,.box-row2,.box-row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.box-row1,.box-row3{
+    background-color: blue;
+
+}
+.box-row2{
+    color: black;
+    background-color: white;
+}
+.icon1-row i{
+      padding: 10px;
+      
+      background-color: white;
+      color: blue;
+      margin-right: 5px;
+}
+.row-dec span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.icon2-row i{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin-right: 5px;
+}
+
+ .box-era-sec{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } 
+ .most-era-box{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }  
+ .left-box{
+    width: 600px;
+ }
+ .right-box{
+    width:400px;
+    height: 60vh;
+  
+ }
+ .right-box img{
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 60vh;
+    object-fit: cover;
+
+ }
+ .data-box{
+    display: flex;
+    margin-top: 20px;
+ }
+ .first-para{
+    color: blue;
+    font-size: 1.5rem;
+ }
+ .simple-para{
+    margin: 20px 0px 15px 0px;
+    font-size: 1.2rem;
+ }
+ .simple-para-icon i{
+    color: blue;
+    font-size: 1.5rem;
+    padding-right: 8px;
+ }
+ .simple-para-icon span{
+    padding-left:50px;
+
+ }
+ 
+ .data-box .icon-box-row i{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+ }
+ .number-row-sec{
+    padding-left: 10px;
+ }
+ .number-row-sec span{
+    color: blue;
+ }
+ .btn-y button{
+    padding: 15px 30px;
+    color: white;
+    background-color: blue;
+    border: 0;
+    margin-top: 15px;
+ }
+ .top-para-sec{
+    width: 100%;
+    min-height: 20vh;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+
+ }
+ .first-para-2{
+    font-size: 1.5rem;
+ }
+ .box-row-sec{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box-row-line{
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+.box-row-line .box-row-1,.box-row-2,.box-row-3{
+     width: 420px;
+}
+.box-row-2 img{
+    background-size: cover;
+    max-width: 100%;
+   
+}
+.top-icon-c i{
+     background-color: blue;
+     color: white;
+     padding: 20px;
+}
+.box-row-para-most{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 12px 0px;
+}
+.box-mine{
+    margin-top: 80px;
+}
+.head-list{
+    width: 100%;
+    min-height: 20vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.service-section{
+    width: 100%;
+    min-height: 80vh;
+   
+}
+.service-section1{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.service-section1 .service-section1-box1,.service-section1-box2,.service-section1-box3,.service-section1-box4{
+    width: 300px;
+    height: 220px;
+    box-shadow: 10px 10px 12px 2px lightgrey;
+    
+}
+.service-section1-box4{
+    background-color: lightblue;
+}
+.head-list-22 i{
+     background-color: blue;
+     rotate: 45deg;
+     margin-top: 35px;
+     color: white;
+     padding: 18px;
+   
+}
+.head-list-22{
+    text-align: center;
+
+}
+.para-1{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.para-11{
+    text-align: center;
+    margin-top: 15px;
+
+}
+.main-box-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+.main-box-row .con-box1,.con-box2,.con-box3{
+     width: 380px;
+     padding: 15px 20px 50px 20px;
+     box-shadow: 8px 8px 10px 2px lightgrey;
+}
+
+.con-box1,.con-box3{
+    background-color: lightskyblue;
+}
+.title-row{
+    font-size: 1.5rem;
+    color: blue;
+    margin: 10px 0px;
+}
+ .number-row span{
+    font-size: 3rem;
+ }
+ .number-row{
+     margin: 20px 0px 15px 0px;
+ }
+ .para-sec-simple span {
+       color: blue;
+       padding-left: 150px;
+ }
+ .para-sec-simple{
+    margin: 10px 0px;
+ }
+ .most-para-line span{
+    color: red;
+    padding-left: 150px;
+ }
+ .most-para-line{
+    margin: 10px 0px;
+ }
+ .btn-xxs button{
+           padding: 10px 25px;
+           border: 0;
+           color: white;
+           background-color: blue;
+ }
+ .btn-xxs{
+    margin-top: 20px;
+ }
+ .detail-row{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: 20px 0px;
+    /* justify-content: space-around; */
+
+ }
+ .right-box{
+    background-color: blue;
+ }
+ .detail-row1{
+    padding-right: 80px;
+ }
+ .detail-row1 span{
+    color: blue;
+    padding-right: 10px;
+    padding-right: 10px;
+ }
+ .detail-row-sec{
+    text-align: center;
+    margin-top: 20px;
+ }
+ .detail-row-sec input{
+    padding: 10px 150px 10px 10px;
+    text-align: start;
+    border: 0;
+ }
+ .detail-row-sec textarea{
+    /* padding: ; */
+    padding: 10px 165px 40px 10px;
+ }
+ .Client-row{
+    display: flex;
+ }
+ .Client-box1 img{
+    width: 60px;
+    height: 60px;
+ }
+ .Client-box2{
+    padding: 5px 0px 0px 20px;
+ }
+ .Client-para{
+    color: blue;
+    /* padding: 5px 0px 10px 10px; */
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+
+ }
+ .Client-simple-para{
+    padding: 20px;
+ }
+ .team-row-sec{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ .team-row{
+    width: 400px;
+    height: 400px;
+ }
+ .team-row img{
+    background-size: cover;
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+ }
+.last-row-sec{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 100%;
+    min-height: 70vh;
+    /* background-color: aqua; */
+}
+.last-row-sec .last-row-sec1{
+    width: 400px;
+    /* height: 200px; */
+    /* background-color: black; */
+}
+.iconic-row img{
+    width: 100%;
+    /* height: 0px; */
+}
+.last-para{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    width: 120px;
+    position: relative;
+    bottom: 240px;
+}
+.icon-most-row{
+    color: blue;
+}
+.icon-most-row span{
+    padding-left: 15px;
+}
+.most-last-para{
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+.iconic-btn-c button{
+    border: 0;
+    color: blue;
+    padding: 15px 0px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+    .top-detail{
+    
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .row-section{
+        width: 100%;
+        
+    } 
+    .row-section .box-row1,.box-row2,.box-row3{
+        width: 100px;
+        /* padding: 30px; */
+        height: 50px;
+    }
+}
